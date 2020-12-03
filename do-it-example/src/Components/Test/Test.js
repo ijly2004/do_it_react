@@ -10,6 +10,7 @@ import  DestroyApp from './03/DestroyApp.js';
 import PureComponentTest from './03/PureComponentTest';
 import ListExample from './03/03-8_ListExample';
 import CounterApp from './03/03-9_CounterApp';
+import ScrollSpy from './03/03-9_ScrollSpy';
 
 
 const Test = () => {
@@ -24,7 +25,8 @@ const Test = () => {
       {/* <DestroyApp /> */}
       {/* <CounterTest/> */}
       {/* <PureComponentTest /> */}
-      <CounterApp />
+      {/* <CounterApp /> */}
+      <ScrollSpy />
     </>
   );
 };

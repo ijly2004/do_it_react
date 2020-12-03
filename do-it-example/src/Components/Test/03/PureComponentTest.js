@@ -49,7 +49,7 @@ class PureComponentTest extends Component {
 
     setTimeout(()=>{
       console.log('deepCopyClick seTimeout2');
-      this.someValue = {value : {changed : 0}};
+      this.someValue.value = {value : {changed : 0}};
       this.listValue = this.someValue;
       this.setState({version:2});
     }, 200);

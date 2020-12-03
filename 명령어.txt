@@ -30,3 +30,17 @@ setting.json 에 추가
 shift+alt + f
 
 
+4장 
+
+#storybook package 설치하기
+yarn add --dev @storybook/react
+
+.storybook/config.js 파일 생성
+
+.storybook/config.js 에서 저장 시, refresh 됨
+
+@storybook addons 설치하기
+yarn add --dev @storybook/addons @storybooks/addon-actions;
+
+@storybook addon 설정
+/.storybook/addons

@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
+import './materialize.css';
 import Test from './Components/Test/Test.js';
 
 function App() {
   return (
     <div>
-      <Test />
+      <nav>
+        <div className="nav-wrapper">
+          <div>do it! react</div>
+        </div>
+      </nav>
+      <h3>Material CSS</h3>
     </div>
   );
 }

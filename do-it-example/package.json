@@ -9,6 +9,7 @@
     "shallow-equal": "^1.2.1"
   },
   "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -22,5 +23,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.1.9",
+    "@storybook/addons": "^6.1.9",
+    "@storybook/react": "^6.1.9",
+    "storybook-addon-jsx": "^7.3.4"
+  }
 }
