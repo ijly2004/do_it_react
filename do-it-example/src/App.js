@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './materialize.css';
+import './sass/materialize.scss';
 import Test from './Components/Test/Test.js';
 
 function App() {

@@ -29,7 +29,7 @@
     "build-all": "yarn ssrbuild && yarn build-firebase",
     "build-firebase": "cd \"./functions\" && yarn --ignore-engines",
     "ssrbuild": "next build",
-    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook": "start-storybook -p 9002 -c .storybook",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
