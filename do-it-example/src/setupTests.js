@@ -8,14 +8,12 @@ AphroditeNoImportant.StyleSheetTestUtils.suppressStyleInjection();
 
 configure({ adapter: new Adapter() });
 
-beforeEach(() => {
-    // console.log('beforeEach()');
-    jest.spyOn(console, 'error').mockImplementation((e) => {
-        throw new Error(e);
-    });
+afterEach(() => {
+  console.error.mockClear();
 });
 
-afterEach(() => {
-    // console.log('afterEach()');
-    console.error.mockClear();
+beforeEach(() => {
+  jest.spyOn(console, 'error').mockImplementation((e) => {
+    throw new Error(e);
+  });
 });
